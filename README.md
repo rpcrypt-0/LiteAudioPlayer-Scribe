@@ -33,8 +33,7 @@
 
 3.  **Setup API Key**
     *   Create a file named `.env` in the main folder.
-    *   Add your key: `GEMINI_API_KEY=your_actual_api_key_here`
-    *   *Alternatively, the app will ask you to enter it when you run it.*
+
 
 4.  **Run the App**
     ```bash
