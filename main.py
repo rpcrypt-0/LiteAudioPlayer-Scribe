@@ -93,9 +93,9 @@ def sync_subtitles(event=None):
     subtitles = []
     raw_text = subtitle_box.get("1.0", tk.END).strip().split('\n')
     for line in raw_text:
-        if '|' in line:
+        if '||' in line:
             try:
-                times, text = line.split(''|'', 1)
+                times, text = line.split('||', 1)
                 start, end = times.split('-')
                 subtitles.append({
                     'start': time_to_sec(start.strip()),

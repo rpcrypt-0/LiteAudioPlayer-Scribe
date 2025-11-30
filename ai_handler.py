@@ -4,10 +4,10 @@ from google.genai import types
 
 SYSTEM_PROMPT = """
 You are a transcription engine. Output ONLY the subtitles.
-Format every line exactly like this: MM:SS:MS - MM:SS:MS | The text goes here
+Format every line exactly like this: MM:SS:MS - MM:SS:MS || The text goes here
 Where MS is milliseconds (3 digits).
 Example:
-00:12:155 - 00:15:500 | Hello world.
+00:12:100 - 00:15:500 || Hello world.
 please be concise and accurate with your transcriptions. Precison is what matters.
 """
 
