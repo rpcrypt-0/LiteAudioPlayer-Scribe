@@ -23,7 +23,7 @@
 1.  **Clone the repository**
     ```bash
     git clone https://github.com/rpcrypt-0/Lt.AudtoTxt.git
-    cd LiteAudioPlayer-Scribe
+    cd Lt.AudtoTxt
     ```
 
 2.  **Install dependencies**
